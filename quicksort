@@ -27,9 +27,7 @@ int partition (int arr[], int low, int high)
     return (i + 1); 
 } 
  
-arr[] --> Array to be sorted, 
-low --> Starting index, 
-high --> Ending index */
+
 void quickSort(int arr[], int low, int high) 
 { 
     if (low < high) 
